@@ -1,0 +1,15 @@
+/*
+ * main.c
+ *
+ *  Created on: Jun 16, 2022
+ *      Author: ibrah
+ */
+
+# include "stdio.h"
+
+int main ()
+{
+
+}
+
+
