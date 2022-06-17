@@ -1,0 +1,22 @@
+/*
+ * main.c
+ *
+ *  Created on: Jun 17, 2022
+ *      Author: ibrah
+ */
+# include "stdio.h"
+
+int main ()
+{
+	    char s[100],temp;
+        int i,j=0;
+		printf("Enter the string: ");
+		fflush(stdout); fflush(stdin);
+		gets(s);
+		i=0;
+        j=strlen(s)-1;
+        printf("Frequency of =%d ",j);
+
+
+}
+

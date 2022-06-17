@@ -1,5 +1,42 @@
-17:50:09 **** Rebuild of configuration Debug for project EX8 ****
+13:55:05 **** Rebuild of configuration Debug for project EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX7.exe main.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX7.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:55:16 **** Incremental Build of configuration Debug for project EX8 ****
+Info: Internal Builder is used for build
+gcc -o EX8.exe main.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:56:34 **** Rebuild of configuration Debug for project EX8 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
 gcc -o EX8.exe main.o 
-Info: Nothing to build for EX8
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX8.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:00:50 **** Incremental Build of configuration Debug for project EX6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX6.exe main.o 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX6.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+14:56:27 **** Incremental Build of configuration Debug for project EX6 ****
+Info: Internal Builder is used for build
+gcc -o EX6.exe main.o 
+14:56:57 **** Incremental Build of configuration Debug for project EX6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX6.exe main.o 
+14:57:13 **** Incremental Build of configuration Debug for project EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX7.exe main.o 
+14:57:23 **** Incremental Build of configuration Debug for project EX7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX7.exe main.o 
+14:59:23 **** Rebuild of configuration Debug for project EX8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX8.exe main.o 

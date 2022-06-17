@@ -1,14 +1,14 @@
 /*
  * main.c
  *
- *  Created on: Jun 16, 2022
+ *  Created on: Jun 17, 2022
  *      Author: ibrah
  */
 
 # include "stdio.h"
 
 int main ()
-{
+/*{
 	    char operand;
 		float number1,number2;
 
@@ -35,6 +35,7 @@ int main ()
 			{printf("%f / %f = %f",number1,number2,number1/number2);
 			}break;
 		}
+}*/
+{
+
 }
-
-

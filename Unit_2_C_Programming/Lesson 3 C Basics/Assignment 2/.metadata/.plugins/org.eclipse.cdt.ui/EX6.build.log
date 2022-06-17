@@ -1,1 +1,7 @@
-Info: Nothing to build for EX6
+14:56:57 **** Incremental Build of configuration Debug for project EX6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o EX6.exe main.o 
+
+14:56:57 Build Finished (took 405ms)
+

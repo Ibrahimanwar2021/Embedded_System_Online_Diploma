@@ -1,0 +1,36 @@
+/*
+ * main.c
+ *
+ *  Created on: Jun 16, 2022
+ *      Author: ibrah
+ */
+
+# include "stdio.h"
+
+int main ()
+/*{
+	    int num;
+		int factorial = 1;
+
+		printf("Enter an integer: ");
+		fflush(stdout); fflush(stdin);
+		scanf("%d",&num);
+
+
+		if (num>=0){
+			int i;
+			for (i =1 ; i<=num ; i++){
+				factorial*=i;
+			}
+			printf("Factorial = %d",factorial);}
+		else
+			printf("Error!!! Factorial of negative number doesn't exist");
+}*/{
+	 float a =0.7;
+	if (0.7>a)
+		printf("hi");
+	else
+		printf("bb");
+	}
+
+

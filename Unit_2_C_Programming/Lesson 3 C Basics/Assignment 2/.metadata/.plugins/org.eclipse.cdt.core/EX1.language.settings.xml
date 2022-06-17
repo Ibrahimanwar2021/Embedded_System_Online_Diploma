@@ -2303,9 +2303,6 @@
 					<entry kind="includePath" name="C:/MinGW/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="/${ProjName}/#undef _REENTRANT">
-						<flag value="BUILTIN|READONLY|VALUE_WORKSPACE_PATH"/>
-					</entry>
 					<entry kind="includePath" name="C:/MinGW/x86_64-w64-mingw32/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
