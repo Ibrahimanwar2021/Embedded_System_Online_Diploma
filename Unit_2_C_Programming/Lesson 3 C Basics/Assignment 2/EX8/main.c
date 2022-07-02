@@ -8,7 +8,7 @@
 # include "stdio.h"
 
 int main ()
-/*{
+{
 	    char operand;
 		float number1,number2;
 
@@ -35,7 +35,4 @@ int main ()
 			{printf("%f / %f = %f",number1,number2,number1/number2);
 			}break;
 		}
-}*/
-{
-
 }

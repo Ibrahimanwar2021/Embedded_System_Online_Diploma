@@ -1,42 +1,31 @@
-13:55:05 **** Rebuild of configuration Debug for project EX7 ****
+02:18:44 **** Rebuild of configuration Debug for project EX8 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o EX7.exe main.o 
-c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX7.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-13:55:16 **** Incremental Build of configuration Debug for project EX8 ****
+..\main.c: In function 'main':
+..\main.c:40:14: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  int i = 2+(2,3,4);
+              ^
+..\main.c:40:16: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  int i = 2+(2,3,4);
+                ^
+..\main.c:41:16: error: expected ';' before '}' token
+  printf("%d",i)
+                ^
+                ;
+ }
+ ~               
+02:18:50 **** Incremental Build of configuration Debug for project EX8 ****
 Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:40:14: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  int i = 2+(2,3,4);
+              ^
+..\main.c:40:16: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  int i = 2+(2,3,4);
+                ^
 gcc -o EX8.exe main.o 
-c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX8.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-13:56:34 **** Rebuild of configuration Debug for project EX8 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o EX8.exe main.o 
-c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX8.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-14:00:50 **** Incremental Build of configuration Debug for project EX6 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o EX6.exe main.o 
-c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file EX6.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-14:56:27 **** Incremental Build of configuration Debug for project EX6 ****
-Info: Internal Builder is used for build
-gcc -o EX6.exe main.o 
-14:56:57 **** Incremental Build of configuration Debug for project EX6 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o EX6.exe main.o 
-14:57:13 **** Incremental Build of configuration Debug for project EX7 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o EX7.exe main.o 
-14:57:23 **** Incremental Build of configuration Debug for project EX7 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
-gcc -o EX7.exe main.o 
-14:59:23 **** Rebuild of configuration Debug for project EX8 ****
+00:10:55 **** Incremental Build of configuration Debug for project EX8 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
 gcc -o EX8.exe main.o 

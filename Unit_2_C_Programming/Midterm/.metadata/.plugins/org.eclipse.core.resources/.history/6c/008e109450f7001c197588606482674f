@@ -1,0 +1,24 @@
+/*
+ * main.c
+ *
+ *  Created on: Jun 29, 2022
+ *      Author: ibrah
+ */
+
+#include <stdio.h>
+
+int sum(int x)
+{
+    while(x>0)
+        return x+sum(x-1);
+}
+
+int main()
+{
+    int num;
+    printf("enter a number: ");
+    fflush(stdout);
+    scanf("%d",&num);
+    printf("The sum of numbers of 1 to %d is %d",num,sum(num));
+    return 0;
+}

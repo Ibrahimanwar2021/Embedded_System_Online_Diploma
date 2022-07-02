@@ -1,0 +1,25 @@
+04:00:49 **** Rebuild of configuration Debug for project EX6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:23:25: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size of union=%d",sizeof(u));
+                        ~^  ~~~~~~~~~
+                        %I64d
+..\main.c:23:25: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("size of union=%d",sizeof(u));
+                        ~^  ~~~~~~~~~
+                        %I64d
+..\main.c:24:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("\nsize of structure =%d",sizeof(s));
+                               ~^  ~~~~~~~~~
+                               %I64d
+..\main.c:24:32: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+  printf("\nsize of structure =%d",sizeof(s));
+                               ~^  ~~~~~~~~~
+                               %I64d
+gcc -o EX6.exe main.o 
+
+04:00:50 Build Finished (took 416ms)
+
+Info: Nothing to build for EX6
