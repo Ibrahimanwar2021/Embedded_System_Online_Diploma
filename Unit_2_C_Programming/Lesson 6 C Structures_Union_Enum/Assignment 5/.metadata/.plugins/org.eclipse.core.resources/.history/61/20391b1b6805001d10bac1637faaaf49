@@ -1,0 +1,38 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 2, 2022
+ *      Author: ibrah
+ */
+
+#include<stdio.h>
+/*union job{
+	char name[32];
+	float salary;
+	int worker_no;
+}u;
+
+struct job1{
+	char name[32];
+	float salary;
+	int worker_no;
+}s;
+
+int main()
+{
+	printf("size of union=%d",sizeof(u));
+	printf("\nsize of structure =%d",sizeof(s));
+	return 0;
+}*/
+
+int main()
+{   //68)
+	int arr[3]={2,3,4};
+	short *p;
+	p=arr;
+	p=(short*)((int*)(p));
+	printf("%d,",*p);
+	p=(int*)(p+1);
+	printf("%d",*p);
+	return 0;
+}
